@@ -22,3 +22,38 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Added patterns for Java
+*.jad
+*.apk
+*.dex
+*.class
+*.war
+*.ear
+*.dbmdl
+*.log
+*.junit.xml
+*.java-backup
+.idea/**
+.gradle/**
+*.iml
+*.ipr
+*.iws
+out/
+build/**
+
+# Python patterns
+*.py[cod]
+*.pyo
+*.pyd
+__pycache__/
+*.cover
+*.py,cover
+.hypothesis/**
+.pytest_cache/**
+.tox/**
+.coverage
+*.egg
+*.egg-info/**
+dist/**
+build/**
