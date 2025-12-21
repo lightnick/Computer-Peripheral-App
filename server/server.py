@@ -3,10 +3,12 @@ import socket
 import threading
 import pyautogui
 
-pyautogui.FAILSAFE = False  # optional: avoid exceptions when mouse hits screen corner
+pyautogui.FAILSAFE = False
 
 HOST = "0.0.0.0"
 PORT = 5000
+stop_event = threading.Event()
+threads = []
 
 def handle_command(cmd: str):
     cmd = cmd.strip()
@@ -27,6 +29,9 @@ def handle_command(cmd: str):
             dx_str, dy_str = cmd[len("move_rel "):].split(",", 1)
             dx, dy = int(dx_str), int(dy_str)
             pyautogui.moveRel(dx, dy)
+        elif cmd == "shutdown":
+            stop_event.set()
+            print("Shutdown command received")
         else:
             print("Unknown command:", cmd)
     except Exception as e:
@@ -37,7 +42,7 @@ def client_thread(conn, addr):
     try:
         with conn:
             buffer = b""
-            while True:
+            while not stop_event.is_set():
                 data = conn.recv(1024)
                 if not data:
                     break
@@ -54,18 +59,37 @@ def client_thread(conn, addr):
         print("Disconnected", addr)
 
 def main():
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
+    global threads
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
         server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         server.bind((HOST, PORT))
         server.listen()
+        server.settimeout(1.0)  # check stop_event periodically
         print(f"Server listening on {HOST}:{PORT}")
         try:
-            while True:
-                conn, addr = server.accept()
+            while not stop_event.is_set():
+                try:
+                    conn, addr = server.accept()
+                except socket.timeout:
+                    continue
+                except OSError:
+                    break
                 t = threading.Thread(target=client_thread, args=(conn, addr), daemon=True)
                 t.start()
+                threads.append(t)
         except KeyboardInterrupt:
-            print("Shutting down server")
+            print("KeyboardInterrupt received, shutting down")
+            stop_event.set()
+    finally:
+        try:
+            server.close()
+        except Exception:
+            pass
+        # give client threads a moment to finish
+        for t in threads:
+            t.join(timeout=0.5)
+        print("Server stopped")
 
 if __name__ == "__main__":
     main()

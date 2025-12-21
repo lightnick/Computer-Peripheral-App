@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+id connection_status_text
+id instructions_text
+layout activity_main
+string app_name
+style Theme.Androidmouse
+xml backup_rules
+xml data_extraction_rules
