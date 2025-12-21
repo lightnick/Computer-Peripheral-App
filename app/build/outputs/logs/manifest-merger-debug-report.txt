@@ -1,0 +1,205 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5de4a39b7cfbd7074167abfb654a64ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\498e641f3e22c50f469a452171a0dbfa\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\7f4d8564f240088039ee3fe328f3d486\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\0b7ba5be3c0bf020325b90a62a6ceadd\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\05fb7785ad400a78700680a400680c77\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\9e29b57ef62bae3f6b71890d7424c21d\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bcb38cbd4cff24c5be3aeb24e415bcc7\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\71a749881cfcb897810e83bb03751b1e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\70d27873622f04727d13d0703ea4a0f3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b46960b11a3fc4f27f022a413e826119\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bab356780900c9fb54fb41116a1af8e9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e81392234e85e328f40d81097c5dd404\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\1d244fcae32aa63004414f58a27dd08e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\124a36ed41cdc69688bb1d4335f9106b\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\f9727991bb7f4b2d787f33efb68c1436\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\ec09581a5e949bf17a6b3ae0beff5005\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e34fd71c08a069ec99b3f47994b3a40f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5566123b6a0d33ad66bf5fe2aa74a1da\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e6ead87319ffb1be626a78fba5714316\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b185b29f02633073571c5d5151e4a286\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\16886a9ab15387fdc4bcf7973df4cf8c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\8bac56db644166c1f9b08a2d8a828be7\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\d3b8e114a9a6a23a6dcc43f37f9cde8f\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\29e42219e6def9f36c0dd583e2efb720\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:7:5-24:19
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e6ead87319ffb1be626a78fba5714316\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e6ead87319ffb1be626a78fba5714316\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:10:9-54
+	tools:targetApi
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:14:9-29
+	android:allowBackup
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:13:9-50
+	android:dataExtractionRules
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.androidmouse.MainActivity
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:exported
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5de4a39b7cfbd7074167abfb654a64ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5de4a39b7cfbd7074167abfb654a64ea\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\498e641f3e22c50f469a452171a0dbfa\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\498e641f3e22c50f469a452171a0dbfa\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\7f4d8564f240088039ee3fe328f3d486\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\7f4d8564f240088039ee3fe328f3d486\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\0b7ba5be3c0bf020325b90a62a6ceadd\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\0b7ba5be3c0bf020325b90a62a6ceadd\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\05fb7785ad400a78700680a400680c77\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\05fb7785ad400a78700680a400680c77\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\9e29b57ef62bae3f6b71890d7424c21d\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\9e29b57ef62bae3f6b71890d7424c21d\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bcb38cbd4cff24c5be3aeb24e415bcc7\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bcb38cbd4cff24c5be3aeb24e415bcc7\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\71a749881cfcb897810e83bb03751b1e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\71a749881cfcb897810e83bb03751b1e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\70d27873622f04727d13d0703ea4a0f3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\70d27873622f04727d13d0703ea4a0f3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b46960b11a3fc4f27f022a413e826119\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b46960b11a3fc4f27f022a413e826119\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bab356780900c9fb54fb41116a1af8e9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\bab356780900c9fb54fb41116a1af8e9\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e81392234e85e328f40d81097c5dd404\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e81392234e85e328f40d81097c5dd404\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\1d244fcae32aa63004414f58a27dd08e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\1d244fcae32aa63004414f58a27dd08e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\124a36ed41cdc69688bb1d4335f9106b\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\124a36ed41cdc69688bb1d4335f9106b\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\f9727991bb7f4b2d787f33efb68c1436\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\f9727991bb7f4b2d787f33efb68c1436\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\ec09581a5e949bf17a6b3ae0beff5005\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\ec09581a5e949bf17a6b3ae0beff5005\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e34fd71c08a069ec99b3f47994b3a40f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e34fd71c08a069ec99b3f47994b3a40f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5566123b6a0d33ad66bf5fe2aa74a1da\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\5566123b6a0d33ad66bf5fe2aa74a1da\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e6ead87319ffb1be626a78fba5714316\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\e6ead87319ffb1be626a78fba5714316\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b185b29f02633073571c5d5151e4a286\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\b185b29f02633073571c5d5151e4a286\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\16886a9ab15387fdc4bcf7973df4cf8c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\16886a9ab15387fdc4bcf7973df4cf8c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\8bac56db644166c1f9b08a2d8a828be7\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\8bac56db644166c1f9b08a2d8a828be7\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\d3b8e114a9a6a23a6dcc43f37f9cde8f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\d3b8e114a9a6a23a6dcc43f37f9cde8f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\29e42219e6def9f36c0dd583e2efb720\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\29e42219e6def9f36c0dd583e2efb720\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Nitro-5\Cool Projects\android-mouse\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\49c3653563e8f6c3711c7c12e1476160\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\fdd6fcfab1b54aca6b8686230cf612cc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.androidmouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.androidmouse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\dd44c694bae2b5951d8ed12c4c650a4b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nitro-5\.gradle\caches\8.13\transforms\78e393717d9e0a044b85a1cbf2a4e984\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
