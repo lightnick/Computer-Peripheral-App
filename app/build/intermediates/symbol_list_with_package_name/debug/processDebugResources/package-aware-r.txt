@@ -630,6 +630,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable touchpad_border
 id ALT
 id CTRL
 id FUNCTION
@@ -701,6 +702,7 @@ id checkbox
 id checked
 id chronometer
 id collapseActionView
+id connect_button
 id connection_status_text
 id content
 id contentPanel
@@ -724,8 +726,9 @@ id icon_group
 id ifRoom
 id image
 id info
-id instructions_text
+id ip_address_edit_text
 id italic
+id left_click_button
 id line1
 id line3
 id listMode
@@ -745,12 +748,14 @@ id parentPanel
 id progress_circular
 id progress_horizontal
 id radio
+id right_click_button
 id right_icon
 id right_side
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scroll_wheel_view
 id search_badge
 id search_bar
 id search_button
@@ -798,6 +803,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id touchpad_container
+id touchpad_view
 id unchecked
 id uniform
 id up
