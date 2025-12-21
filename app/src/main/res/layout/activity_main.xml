@@ -1,19 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
-    <TextView
-        android:id="@+id/instructions_text"
+    <EditText
+        android:id="@+id/ip_address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Server IP Address"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/connect_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Swipe to move the mouse pointer"/>
+        android:layout_below="@id/ip_address_edit_text"
+        android:layout_centerHorizontal="true"
+        android:text="Connect" />
 
     <TextView
         android:id="@+id/connection_status_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/instructions_text"
-        android:text="Connecting..." />
+        android:layout_below="@id/connect_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Not Connected" />
+
+    <LinearLayout
+        android:id="@+id/touchpad_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/connection_status_text"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/touchpad_border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/left_click_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Left Click" />
+
+            <View
+                android:id="@+id/scroll_wheel_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E0E0E0" />
+
+            <Button
+                android:id="@+id/right_click_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Right Click" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/touchpad_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#FAFAFA" />
+
+    </LinearLayout>
 
 </RelativeLayout>
