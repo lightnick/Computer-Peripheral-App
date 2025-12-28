@@ -1,4 +1,4 @@
-# Android-Mouse
+# Computer-Peripheral-App
 
 ## How the Project Works
 1. The Android app captures touch gestures and sends them as commands to the Python server.
