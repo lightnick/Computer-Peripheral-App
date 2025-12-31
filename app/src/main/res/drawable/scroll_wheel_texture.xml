@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="16dp"
+    android:viewportWidth="48"
+    android:viewportHeight="16">
+
+    <!-- Dark groove -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M0,0 L48,0 L48,3 L0,3 Z"/>
+
+    <!-- Medium ridge -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M0,3 L48,3 L48,5 L0,5 Z"/>
+
+    <!-- Light ridge (highlight) -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M0,5 L48,5 L48,8 L0,8 Z"/>
+
+    <!-- Medium ridge -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M0,8 L48,8 L48,10 L0,10 Z"/>
+
+    <!-- Dark groove -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M0,10 L48,10 L48,13 L0,13 Z"/>
+
+    <!-- Shadow at bottom -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M0,13 L48,13 L48,16 L0,16 Z"/>
+</vector>

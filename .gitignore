@@ -23,3 +23,8 @@ dist/
 .coverage
 .pytest_cache/
 .tox/
+venv/
+env/
+ENV/
+
+app/build/

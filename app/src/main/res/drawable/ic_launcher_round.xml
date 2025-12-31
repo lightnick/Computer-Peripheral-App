@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2196F3"/>
+        </shape>
+    </item>
+
+    <!-- Mouse icon -->
+    <item
+        android:width="64dp"
+        android:height="64dp"
+        android:gravity="center">
+        <vector
+            android:width="64dp"
+            android:height="64dp"
+            android:viewportWidth="64"
+            android:viewportHeight="64">
+
+            <!-- Mouse body -->
+            <path
+                android:fillColor="#FFFFFF"
+                android:pathData="M16,12
+                         C16,9 18,7 21,7
+                         L43,7
+                         C46,7 48,9 48,12
+                         L48,44
+                         C48,51 44,57 37,57
+                         L27,57
+                         C20,57 16,51 16,44
+                         Z"/>
+
+            <!-- Button separator -->
+            <path
+                android:strokeColor="#2196F3"
+                android:strokeWidth="2"
+                android:pathData="M32,7 L32,26"/>
+
+            <!-- Scroll wheel -->
+            <path
+                android:fillColor="#90CAF9"
+                android:pathData="M27,13
+                         C27,12 28,11 29,11
+                         L35,11
+                         C36,11 37,12 37,13
+                         L37,20
+                         C37,21 36,22 35,22
+                         L29,22
+                         C28,22 27,21 27,20
+                         Z"/>
+
+            <!-- Scroll lines -->
+            <path
+                android:strokeColor="#2196F3"
+                android:strokeWidth="1.2"
+                android:pathData="M29,14 L35,14 M29,17 L35,17 M29,20 L35,20"/>
+
+            <!-- Touchpad area -->
+            <path
+                android:fillColor="#E3F2FD"
+                android:fillAlpha="0.5"
+                android:pathData="M20,30
+                         C20,28 21,27 23,27
+                         L41,27
+                         C43,27 44,28 44,30
+                         L44,45
+                         C44,47 43,48 41,48
+                         L23,48
+                         C21,48 20,47 20,45
+                         Z"/>
+        </vector>
+    </item>
+</layer-list>

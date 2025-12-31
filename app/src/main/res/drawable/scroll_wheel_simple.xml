@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base background -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#616161" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Top gradient shadow (dark to transparent) -->
+    <item android:top="0dp" android:height="40dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#80000000"
+                android:centerColor="#40000000"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+
+    <!-- Horizontal lines in the middle -->
+    <item android:top="35dp" android:bottom="35dp">
+        <layer-list>
+            <!-- Line 1 -->
+            <item android:top="0dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+            <!-- Line 2 -->
+            <item android:top="6dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+            <!-- Line 3 -->
+            <item android:top="12dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+            <!-- Line 4 -->
+            <item android:top="18dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+            <!-- Line 5 -->
+            <item android:top="24dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+            <!-- Line 6 -->
+            <item android:top="30dp" android:height="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#424242" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- Bottom gradient shadow (transparent to dark) -->
+    <item android:bottom="0dp" android:height="40dp" android:gravity="bottom">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#80000000"
+                android:centerColor="#40000000"
+                android:endColor="#00000000" />
+        </shape>
+    </item>
+
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1dp"
+                android:color="#424242" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+</layer-list>

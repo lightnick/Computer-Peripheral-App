@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Mouse body (rounded rectangle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,28
+                         C30,23 33,20 38,20
+                         L70,20
+                         C75,20 78,23 78,28
+                         L78,72
+                         C78,82 72,88 62,88
+                         L46,88
+                         C36,88 30,82 30,72
+                         Z"/>
+
+    <!-- Left button separator -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M53,20 L53,45
+                         C53,46 53.5,46.5 54,46.5
+                         C54.5,46.5 55,46 55,45
+                         L55,20"
+        android:strokeWidth="2"
+        android:strokeColor="#2196F3"/>
+
+    <!-- Right button separator -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M53,20 L53,45"
+        android:strokeWidth="2"
+        android:strokeColor="#2196F3"/>
+
+    <!-- Scroll wheel -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M48,30
+                         C48,28 49,27 51,27
+                         L57,27
+                         C59,27 60,28 60,30
+                         L60,38
+                         C60,40 59,41 57,41
+                         L51,41
+                         C49,41 48,40 48,38
+                         Z"/>
+
+    <!-- Scroll wheel lines (for texture) -->
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1.5"
+        android:pathData="M50,30 L58,30"/>
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1.5"
+        android:pathData="M50,34 L58,34"/>
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1.5"
+        android:pathData="M50,38 L58,38"/>
+
+    <!-- Touchpad indicator (subtle oval) -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M38,55
+                         C38,52 40,50 43,50
+                         L65,50
+                         C68,50 70,52 70,55
+                         L70,72
+                         C70,75 68,77 65,77
+                         L43,77
+                         C40,77 38,75 38,72
+                         Z"
+        android:fillAlpha="0.6"/>
+</vector>
