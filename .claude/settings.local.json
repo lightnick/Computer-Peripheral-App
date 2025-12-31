@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(python3:*)",
+      "Bash(where:*)",
+      "Bash(py -m venv:*)",
+      "Bash(venvScriptsactivate)",
+      "Bash(pip install:*)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venvScriptspip install pystray)"
+    ]
+  }
+}
