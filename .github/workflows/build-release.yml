@@ -114,7 +114,7 @@ jobs:
     name: Create GitHub Release
     needs: [build-windows-server, build-android-apk]
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
+    environment: production-release
 
     steps:
       - name: Checkout code
