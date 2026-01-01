@@ -115,6 +115,7 @@ jobs:
     needs: [build-windows-server, build-android-apk]
     runs-on: ubuntu-latest
     environment: production-release
+    if: (github.ref == 'refs/heads/master' && github.event_name == 'push') || github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Checkout code
