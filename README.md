@@ -62,7 +62,7 @@ You should now be able to control your PC from your Android device.
    # macOS/Linux
    source venv/bin/activate
    ```
-5. Install dependencies:
+5. Install dependencies :
    ```bash
    pip install -r requirements.txt
    ```
