@@ -5,7 +5,7 @@ import time
 import pyautogui
 import base64
 from io import BytesIO
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageGrab
 import pystray
 from PIL import Image as PILImage
 
@@ -126,8 +126,10 @@ def capture_cursor_area():
         left = max(virtual_left, left)
         top = max(virtual_top, top)
 
-        # Capture screenshot
-        screenshot = pyautogui.screenshot(region=(left, top, capture_width, capture_height))
+        # Capture screenshot using PIL ImageGrab which properly handles virtual screen coordinates
+        # bbox format: (left, top, right, bottom)
+        bbox = (left, top, left + capture_width, top + capture_height)
+        screenshot = ImageGrab.grab(bbox=bbox, all_screens=True)
 
         # Calculate where the cursor actually is in the captured image
         # (not necessarily the center due to edge clamping)
