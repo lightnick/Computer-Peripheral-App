@@ -66,27 +66,60 @@ cursor_view_enabled = False
 cursor_view_lock = threading.Lock()
 
 
+def get_virtual_screen_bounds():
+    """Get the virtual screen bounds that span all monitors.
+
+    Returns:
+        tuple: (left, top, width, height) of the virtual screen
+    """
+    if WINDOWS_AVAILABLE:
+        try:
+            # SM_XVIRTUALSCREEN (76) - left of virtual screen
+            # SM_YVIRTUALSCREEN (77) - top of virtual screen
+            # SM_CXVIRTUALSCREEN (78) - width of virtual screen
+            # SM_CYVIRTUALSCREEN (79) - height of virtual screen
+            virtual_left = win32api.GetSystemMetrics(76)
+            virtual_top = win32api.GetSystemMetrics(77)
+            virtual_width = win32api.GetSystemMetrics(78)
+            virtual_height = win32api.GetSystemMetrics(79)
+            return (virtual_left, virtual_top, virtual_width, virtual_height)
+        except Exception as e:
+            print(f"[DEBUG] Failed to get virtual screen bounds: {e}")
+
+    # Fallback to primary monitor only
+    screen_width, screen_height = pyautogui.size()
+    return (0, 0, screen_width, screen_height)
+
+
 def capture_cursor_area():
     """Capture area around cursor with cursor indicator and return as base64 JPEG."""
     try:
-        # Get cursor position and screen size
+        # Get cursor position and virtual screen bounds (all monitors)
         x, y = pyautogui.position()
-        screen_width, screen_height = pyautogui.size()
+        virtual_left, virtual_top, virtual_width, virtual_height = get_virtual_screen_bounds()
+
+        # Calculate the right and bottom edges of the virtual screen
+        virtual_right = virtual_left + virtual_width
+        virtual_bottom = virtual_top + virtual_height
 
         # Calculate capture region
         half_size = CURSOR_VIEW_SIZE // 2
-        left = max(0, x - half_size)
-        top = max(0, y - half_size)
+        left = x - half_size
+        top = y - half_size
 
-        # Ensure we don't go beyond screen bounds
-        if left + CURSOR_VIEW_SIZE > screen_width:
-            left = screen_width - CURSOR_VIEW_SIZE
-        if top + CURSOR_VIEW_SIZE > screen_height:
-            top = screen_height - CURSOR_VIEW_SIZE
+        # Ensure we don't go beyond virtual screen bounds
+        if left < virtual_left:
+            left = virtual_left
+        if top < virtual_top:
+            top = virtual_top
+        if left + CURSOR_VIEW_SIZE > virtual_right:
+            left = virtual_right - CURSOR_VIEW_SIZE
+        if top + CURSOR_VIEW_SIZE > virtual_bottom:
+            top = virtual_bottom - CURSOR_VIEW_SIZE
 
         # Make sure left and top are still valid after adjustment
-        left = max(0, left)
-        top = max(0, top)
+        left = max(virtual_left, left)
+        top = max(virtual_top, top)
 
         # Capture screenshot
         screenshot = pyautogui.screenshot(region=(left, top, CURSOR_VIEW_SIZE, CURSOR_VIEW_SIZE))
