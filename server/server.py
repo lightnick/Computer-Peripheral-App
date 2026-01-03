@@ -83,7 +83,7 @@ def get_virtual_screen_bounds():
             virtual_width = win32api.GetSystemMetrics(78)
             virtual_height = win32api.GetSystemMetrics(79)
             return (virtual_left, virtual_top, virtual_width, virtual_height)
-        except Exception as e:
+        except (AttributeError, OSError) as e:
             print(f"[DEBUG] Failed to get virtual screen bounds: {e}")
 
     # Fallback to primary monitor only
@@ -102,27 +102,32 @@ def capture_cursor_area():
         virtual_right = virtual_left + virtual_width
         virtual_bottom = virtual_top + virtual_height
 
+        # Determine actual capture size (may be smaller than CURSOR_VIEW_SIZE if screen is tiny)
+        capture_width = min(CURSOR_VIEW_SIZE, virtual_width)
+        capture_height = min(CURSOR_VIEW_SIZE, virtual_height)
+
         # Calculate capture region
-        half_size = CURSOR_VIEW_SIZE // 2
-        left = x - half_size
-        top = y - half_size
+        half_width = capture_width // 2
+        half_height = capture_height // 2
+        left = x - half_width
+        top = y - half_height
 
         # Ensure we don't go beyond virtual screen bounds
         if left < virtual_left:
             left = virtual_left
         if top < virtual_top:
             top = virtual_top
-        if left + CURSOR_VIEW_SIZE > virtual_right:
-            left = virtual_right - CURSOR_VIEW_SIZE
-        if top + CURSOR_VIEW_SIZE > virtual_bottom:
-            top = virtual_bottom - CURSOR_VIEW_SIZE
+        if left + capture_width > virtual_right:
+            left = virtual_right - capture_width
+        if top + capture_height > virtual_bottom:
+            top = virtual_bottom - capture_height
 
         # Make sure left and top are still valid after adjustment
         left = max(virtual_left, left)
         top = max(virtual_top, top)
 
         # Capture screenshot
-        screenshot = pyautogui.screenshot(region=(left, top, CURSOR_VIEW_SIZE, CURSOR_VIEW_SIZE))
+        screenshot = pyautogui.screenshot(region=(left, top, capture_width, capture_height))
 
         # Calculate where the cursor actually is in the captured image
         # (not necessarily the center due to edge clamping)
